@@ -8,20 +8,20 @@ Subfunctions:
 Bisect.m: a binary function  
 F_position.m: an improved trial-position function  
 FP_iteration. M: a fixed point iteration subfunction  
-NR. M: the Newton-Rapson iterative subfunction  
-Secant. M: a Secant method function  
+NR.m: the Newton-Rapson iterative subfunction  
+Secant.m: a Secant method function  
 equa1.m: the evaluated subfunction 1  
 equa2.m: the evaluated subfunction 2  
 equa3.m: the evaluated subfunction 3  
-ODE1. M: the subfunction of euler method  
-ODE2. M: the subfunction of huhne's method  
-ODE3. M: the subfunction of runge kutta method  
+ODE1.m: the subfunction of euler method  
+ODE2.m: the subfunction of huhne's method  
+ODE3.m: the subfunction of runge kutta method  
 ODE4.m: an improved runge kutta method to solve subfunctions  
 cal.m: the value of the derivative to calculate the subfunction  
-Newton. M: the interpolation sub-function of Newton method  
-spline3. M: a cubic spline interpolation subfunction  
+Newton.m: the interpolation sub-function of Newton method  
+spline3.m: a cubic spline interpolation subfunction  
 ls1.m: the fitting sub-function of least square method 1/(ax+b)  
-ls2. M: the fitting sub-function of least square method 1/(ax^2+b)  
+ls2.m: the fitting sub-function of least square method 1/(ax^2+b)  
 ls3.m: the fitting sub-function of least square method ab^(-ex)  
 difference.m: the difference quotient operator function  
-cf. m: the schematic sub-function of the curve interpolation fitting result  
+cf.m: the schematic sub-function of the curve interpolation fitting result  
