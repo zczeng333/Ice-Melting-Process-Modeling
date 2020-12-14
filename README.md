@@ -1,27 +1,42 @@
-# Ice-Melting-Process-Modeling
-Modeling for ice melting process, with numerical solutions and experiment validations  
-Code description document:  
-main function, run directly  
-(the program may take several seconds to run, which outputs text messages and six images)  
+Documentation
+=============
+**General Description:**
 
-Subfunctions:  
-Bisect.m: a binary function  
-F_position.m: an improved trial-position function  
-FP_iteration. M: a fixed point iteration subfunction  
-NR.m: the Newton-Rapson iterative subfunction  
-Secant.m: a Secant method function  
-equa1.m: the evaluated subfunction 1  
-equa2.m: the evaluated subfunction 2  
-equa3.m: the evaluated subfunction 3  
-ODE1.m: the subfunction of euler method  
-ODE2.m: the subfunction of huhne's method  
-ODE3.m: the subfunction of runge kutta method  
-ODE4.m: an improved runge kutta method to solve subfunctions  
-cal.m: the value of the derivative to calculate the subfunction  
-Newton.m: the interpolation sub-function of Newton method  
-spline3.m: a cubic spline interpolation subfunction  
-ls1.m: the fitting sub-function of least square method 1/(ax+b)  
-ls2.m: the fitting sub-function of least square method 1/(ax^2+b)  
-ls3.m: the fitting sub-function of least square method ab^(-ex)  
-difference.m: the difference quotient operator function  
-cf.m: the schematic sub-function of the curve interpolation fitting result  
+This project is a model for ice melting process solved by numerical calculation programmed with MATLAB
+
+Dependencies
+-------------
+**Language:**  MATLAB
+
+Project Architecture
+-------------
+```buildoutcfg
+    Bisect.m        // bisection
+    cal.m           // derivative calculation function
+    cf.m            // schematic sub-function of the curve interpolation fitting result
+    difference.m    // difference quotient operator
+    Document.pdf    // technical documentation of this project
+    equa1.m         // subfunction 1 to be evaluated
+    equa2.m         // subfunction 2 to be evaluated
+    equa3.m         // subfunction 3 to be evaluated
+    FP_iteration.m  // fixed point iteration
+    F_position.m    // improved trial-position 
+    ls1.m           // fitting sub-function of least square method 1/(ax+b)
+    ls2.m           // fitting sub-function of least square method 1/(ax^2+b)
+    ls3.m           // fitting sub-function of least square method ab^(-ex)
+    main.m          // main function
+    Newton.m        // Newton interpolation method
+    NR.m            // Newton-Rapson iterative method 
+    ODE1.m          // euler method
+    ODE2.m          // huhne's method
+    ODE3.m          // runge-kutta method
+    ODE4.m          // improved runge-kutta method
+    README.md       // help
+    Secant.m        // Secant method
+    spline3.m       // cubic spline interpolation
+```
+
+Usage
+-------------
+Run main.m directly  
+The program may take several seconds to run, which outputs several text messages and images
